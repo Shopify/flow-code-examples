@@ -1,0 +1,14 @@
+query {
+  order {
+    subtotalPriceSet {
+      shopMoney {
+        amount
+      }
+    }
+    totalShippingPriceSet {
+      shopMoney {
+        amount
+      }
+    }
+  }
+}

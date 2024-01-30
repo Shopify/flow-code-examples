@@ -1,0 +1,5 @@
+"Output object"
+type Output {
+  "The list of colors string to use to set a metafield"
+  colorMetafield: String!
+}

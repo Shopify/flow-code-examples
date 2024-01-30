@@ -1,0 +1,6 @@
+query {
+  productVariant {
+    price
+    compareAtPrice
+  }
+}

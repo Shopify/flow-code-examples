@@ -1,0 +1,6 @@
+"Output object"
+type Output {
+  "Whether the current time is within business hours"
+  isBusinessHours: Boolean!
+}
+

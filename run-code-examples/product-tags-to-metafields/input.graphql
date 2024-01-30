@@ -1,0 +1,10 @@
+query {
+  product {
+    tags
+    metafields {
+      namespace
+      key
+      value
+    }
+  }
+}

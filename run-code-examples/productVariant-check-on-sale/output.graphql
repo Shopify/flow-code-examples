@@ -1,0 +1,5 @@
+"Output object"
+type Output {
+  "Type of discount applied to the product variant: clearance, sale, or list price"
+  discountType: String!
+}

@@ -1,0 +1,6 @@
+query {
+  scheduledAt
+  shop {
+    timezoneOffsetMinutes
+  }
+}

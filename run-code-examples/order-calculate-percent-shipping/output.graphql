@@ -1,0 +1,5 @@
+"Output object"
+type Output {
+  "The percentage total for shipping costs"
+  percentShipping: Float!
+}
