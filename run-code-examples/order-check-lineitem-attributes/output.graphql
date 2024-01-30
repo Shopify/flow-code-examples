@@ -1,0 +1,16 @@
+"Output object"
+type Output {
+  "Number of engraved items found"
+  engravedQty: Int!
+  "Array containing information about each engraved item on the order"
+  engravedItems: [engravedItems]!
+}
+"Information about the number of engraved items found in the order"
+type engravedItems {
+  "The title of the lineItem that needs engraving"
+  title: String!
+  "The quantity of items to be engraved"
+  quantity: Int!
+  "The engraving text for the line item"
+  engraving: String!
+}
