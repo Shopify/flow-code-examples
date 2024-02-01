@@ -1,0 +1,8 @@
+query {
+  order {
+    lineItems {
+      title
+      quantity
+    }
+  }
+}
