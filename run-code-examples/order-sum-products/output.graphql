@@ -1,0 +1,7 @@
+"Output object"
+type Output {
+  "Quantity for line items that match"
+  productCount: Int!
+  "Has a product the matches"
+  hasProduct: Boolean!
+}
