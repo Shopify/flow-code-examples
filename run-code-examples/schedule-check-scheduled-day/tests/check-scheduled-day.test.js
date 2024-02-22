@@ -3,14 +3,24 @@ import main from "../index";
 describe("main", () => {
   [
     {
-      name: "is false for business days",
+      name: "is true for business days",
       scheduledAt: "2024-02-22T14:32:00Z",
+      expected: true
+    },
+    {
+      name: "is true for business days",
+      scheduledAt: "2024-02-19T11:32:00Z",
+      expected: true
+    },
+    {
+      name: "is false for business days on weekend in shop's timezone",
+      scheduledAt: "2024-02-19T04:32:00Z",
       expected: false
     },
     {
-      name: "is true for weekends",
+      name: "is false for weekends",
       scheduledAt: "2024-02-24T23:32:00Z",
-      expected: true
+      expected: false
     },
   ].forEach(({name, scheduledAt, expected}) => {
     it(name, () => {
@@ -22,7 +32,7 @@ describe("main", () => {
       };
 
       const expectedOutput = {
-        isWeekend: expected,
+        isBusinessDay: expected,
       };
 
       const result = main(input);
