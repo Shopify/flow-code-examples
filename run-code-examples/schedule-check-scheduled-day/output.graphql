@@ -1,0 +1,6 @@
+"Output object"
+type Output {
+  "Whether the current day is a business day"
+  isBusinessDay: Boolean!
+}
+
