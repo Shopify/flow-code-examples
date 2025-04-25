@@ -1,0 +1,5 @@
+"Output object"
+type Output {
+  "Total sales amount for the salesperson"
+  totalSales: Float!
+}
