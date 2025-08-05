@@ -31,7 +31,7 @@ In your Shopify Flow workflow:
 
 1. Add a "Send HTTP Request" action before the "Run Code" action
 2. Configure it with one of the example cURL requests below
-3. Store your API key in Flow's environment variables for security
+3. Store your API key in Flow's secret storage for security
 
 ### Step 2: Add Run Code Action
 
