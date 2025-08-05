@@ -1,0 +1,15 @@
+type Output {
+  success: Boolean!
+  error: String
+  content: String
+  model: String
+  usage: UsageInfo
+  finishReason: String
+  provider: String
+}
+
+type UsageInfo {
+  promptTokens: Int
+  completionTokens: Int
+  totalTokens: Int
+}
