@@ -1,6 +1,6 @@
 # Flow Code Examples
 
-This is the home of all the public examples for how to use Flow's Run code action. Feel free to look around! Do not edit these files directly.
+This is the home of all the public examples for how to use [Shopify Flow](https://www.shopify.com/flow)'s [Run Code action](https://help.shopify.com/en/manual/shopify-flow/reference/actions/run-code). Feel free to look around! Do not edit these files directly.
 
 ## About the examples
 
