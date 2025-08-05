@@ -159,7 +159,7 @@ The parser handles various error scenarios:
 
 ## Security Best Practices
 
-1. **Never hardcode API keys** - Use Flow's environment variables
+1. **Never hardcode API keys** - Use Flow's secret storage
 2. **Set appropriate rate limits** - Prevent excessive API calls
 3. **Validate responses** - Check the `success` field before using `content`
 4. **Monitor usage** - Track token consumption via the `usage` field
