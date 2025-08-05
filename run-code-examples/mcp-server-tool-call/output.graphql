@@ -1,0 +1,23 @@
+"Output object for MCP server tool call"
+type Output {
+  "Whether the MCP tool call was successful"
+  success: Boolean!
+
+  "The parsed text result from the MCP server"
+  result: String
+
+  "Error information if the call failed"
+  error: Error
+
+  "The raw SSE response for debugging"
+  rawResponse: String!
+}
+
+"Error object containing error details"
+type Error {
+  "Error code from the MCP server"
+  code: Int
+
+  "Error message describing what went wrong"
+  message: String
+}
