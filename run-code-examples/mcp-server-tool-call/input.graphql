@@ -1,0 +1,8 @@
+query {
+  # The response from the MCP server HTTP request
+  # This would be populated by the HTTP Request action in Shopify Flow
+  # with the SSE (Server-Sent Events) formatted response
+  sendHttpRequest {
+    body
+  }
+}
