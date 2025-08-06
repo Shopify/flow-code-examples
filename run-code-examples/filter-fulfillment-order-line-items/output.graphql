@@ -1,0 +1,4 @@
+type Output {
+  "The filtered fulfillment order line items"
+  fulfillmentOrderSplits: String!
+}

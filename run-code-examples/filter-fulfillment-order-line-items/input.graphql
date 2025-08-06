@@ -1,0 +1,20 @@
+query{
+  fulfillmentOrder {
+    id
+    lineItems {
+      id
+      totalQuantity
+      productTitle
+    }
+    order{
+      lineItems {
+        variant {
+          product {
+            title
+            tags
+          }
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,33 @@
+query {
+  order {
+    purchasingEntity {
+      ... on PurchasingCompany {
+        company {
+          primarySalesperson {
+            value
+          }
+        }
+      }
+    }
+  }
+  getOrderData {
+    id
+    currentTotalPriceSet {
+      shopMoney {
+        amount
+      }
+    }
+    purchasingEntity {
+      ... on PurchasingCompany {
+        company {
+          primarySalesperson {
+            value
+          }
+          primarySalespersonName {
+            value
+          }
+        }
+      }
+    }
+  }
+}
